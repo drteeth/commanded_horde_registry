@@ -4,7 +4,7 @@ defmodule Commanded.Registration.HordeRegistry.MixProject do
   def project do
     [
       app: :commanded_horde_registry,
-      version: "1.0.0-alpha.1",
+      version: "1.0.0-rc.1",
       elixir: "~> 1.12",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
