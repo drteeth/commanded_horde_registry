@@ -57,10 +57,10 @@ defmodule Commanded.Registration.HordeRegistry.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:commanded, "~> 1.0.0"},
+      {:commanded, "~> 1.4"},
       {:jason, "~> 1.1"},
       {:ex_doc, "~> 0.19", only: :dev},
-      {:horde, "~> 0.7.0"},
+      {:horde, "~> 0.9"},
       {:local_cluster, "~> 1.0", only: [:test]},
       {:mox, "~> 0.5", only: :test}
     ]
