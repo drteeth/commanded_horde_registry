@@ -4,9 +4,6 @@ defmodule Commanded.Registration.HordeRegistry.MixProject do
   def project do
     [
       app: :commanded_horde_registry,
-      aliases: [
-        test: "test --no-start"
-      ],
       version: "1.0.0-alpha.1",
       elixir: "~> 1.8",
       elixirc_paths: elixirc_paths(Mix.env()),
