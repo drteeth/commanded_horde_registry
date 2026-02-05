@@ -78,7 +78,10 @@ defmodule Commanded.Registration.HordeRegistry do
         :undefined
 
       other ->
-        Logger.warning("unexpected response from Horde.Registry.whereis_name/1: #{inspect(other)}")
+        Logger.warning(
+          "unexpected response from Horde.Registry.whereis_name/1: #{inspect(other)}"
+        )
+
         :undefined
     end
   end
